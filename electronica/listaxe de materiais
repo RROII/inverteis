@@ -1,1 +1,21 @@
-
+Deseño do programa
+invernadero Roi
+Raspberry Pi Pico W
+Cables F-M
+Sensores:
+-DHTT11: recolle datos de temperatura e humidade
+-Boton
+-Ldr: recolle datos de luz
+Actuadores:
+-relé:
+-ventilador: acendese cando a temperatura é menor que 25 grados e se volve a apagar cando é
+menor de 22 grados (tamen se acende cando lle das ao boton1)
+-bomba de auga: acendese cando a humidade sea menor que el 55% durante 30 segundos e
+logo se apaga ( tamen se acende cando lle das ao boton1)
+-servos: movense 45 graos cando a humidade é maior do 80’% e volve a sua posicion orixinal
+cando é menor de 60%
+-LCD: da as lecturas do DHTT11 e do Ldr, e pon o meu nome e o nome do proxecto
+-RGB:
+-vermello: a temperatura é demasiado alta
+-azul: demasiado frio
+-verde: perfecto
